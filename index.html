@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobertura Platinum - 501</title>
+
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navegation and logo -->
+    <header>
+        <div class="container">
+            <nav class="nav">
+
+                <div class="menu-toggle">
+                    <!-- Icons: Hamburguer menu and an X icon -->
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <a href="index.html" class="logo">
+                    <!-- I need to create a logo <img src="" alt=""> -->
+                </a>
+
+                <!-- Basic structure of the navegation -->
+                <!-- Even if I don't have the Desktop navegation, I need a mobile navegation -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Reservation</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Location</a>
+                    </li>
+                </ul>
+                <!-- End of navegation list -->
+            </nav>
+        </div>  <!-- End of div container -->
+    </header>
+
+    <!-- Where the Hero Image is -->
+    <section class="hero" id="hero">
+        <div class="container">
+
+             <!-- The headline, subheadline and button have an Up animation -->
+            <div class="UpAnimation">               
+                 <h1 class="headline">Hygge</h1>
+                 <h2 class="subheadline__hero">Your perfect stay in Maringá</h2>
+
+                 <!-- Button div -->    
+                 <a href="#" class="btn">Book Now</a>              <!-- btn == button -->
+            </div>          
+        </div>
+    </section>
+
+    <!-- Showcase section - Grid -->
+    <section class="showcase">
+        <div class="container">
+
+            <div class="content">
+                <h2 class="subheadline">Welcome to Maringá</h2>
+
+                <p>Our Airbnb is conveniently located in the heart of Maringá, Paraná. It is close to all popular
+                    attractions. It's equipped with everything you need to feel at home. </p>
+            </div>
+
+            <!-- For the mobile version is better to have vertical photos -->
+            <div class="gallery_grid">         
+                <img src="./img/grid__mobileLivingRoom.png" alt="">                   
+                <img src="./img/grid__mobileDinningRoom.png" alt="">
+                <img src="./img/grid__mobileKitchen.png" alt="">
+                <img src="./img/grid__mobileBedroom.png"alt="">            
+                <img src="./img/grid__mobileBathroom.png" alt="">    
+                <img src="./img/grid__mobileFront.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="host">
+        <div class="container">
+
+           <img class="image__host" src="./img/grid__mobileLivingRoom.png" alt="">            
+
+            <div class="darkBox">
+                <h1 class="subheadline light">Your host</h1>
+                <p class="darkBox__paragraph">Hi I'm Ernestine. I am your Airbnb host and will be able to be your point of contanct during your stay.</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
